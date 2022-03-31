@@ -1,0 +1,11 @@
+[Match]
+Name=eth0
+
+[Network]
+Address=[MY_IPv6]
+Gateway=172.31.1.1
+Gateway=fe80::1
+
+[Address]
+Address=[MY_IPv4]
+Peer=172.31.1.1/32
