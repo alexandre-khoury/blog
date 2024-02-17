@@ -20,7 +20,7 @@ I will be using `nftables`, as `iptables` is deprecated<sup><a name="fn2_source"
 ### Networking prerequisites
 You should know about [CIDR notation](https://www.shellhacks.com/cidr-notation-explained-examples/) and that the private subnets you can safely use are:
 - 10.0.0.0/8
-- 127.17.0.0/12
+- 172.16.0.0/12
 - 192.168.0.0/24
 
 You should also have a basic knowledge of `nftables` syntax.
